@@ -68,6 +68,27 @@
 
         echo "<br>";
     }
+
+    echo "<hr>";
+
+    for ($h = 0; $h <= 5; $h++) {
+
+        for ($k = 1; $k > $h; $k--) {
+            echo " &nbsp ";
+        }
+        for ($m = 1; $m <= $h; $m++) {
+            echo "*";
+        }
+        for ($k = 7; $k > $h; $k--) {
+            echo " &nbsp &nbsp";
+        }
+        for ($m = 1; $m <= $h; $m++) {
+            echo "*";
+        }
+
+        echo "<br>";
+    }
+
     echo "<hr>";
 
     for ($h = 0; $h <= 5; $h++) {
