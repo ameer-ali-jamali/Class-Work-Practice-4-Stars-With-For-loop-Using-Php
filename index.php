@@ -17,58 +17,75 @@
 
     <?php
 
-    for ($i = 1; $i <= 5; $i++) {
-        for ($j = 1; $j <= $i; $j++) {
-            echo "* &nbsp";
+    // for ($i = 1; $i <= 5; $i++) {
+    //     for ($j = 1; $j <= $i; $j++) {
+    //         echo "* &nbsp";
+    //     }
+    //     echo "<br>";
+    // }
+
+    // echo "<hr>";
+
+    // for ($i = 5; $i >= 1; $i--) {
+    //     for ($j = 1; $j <= $i; $j++) {
+    //         echo "* &nbsp";
+    //     }
+    //     echo "<br>";
+    // }
+
+    // echo "<hr>";
+
+    // for ($j = 1; $j <= 10; $j = $j + 2) {
+    //     for ($k = 10; $k > $j; $k--) {
+    //         echo "&nbsp";
+    //     }
+    //     for ($l = 1; $l <= $j; $l++) {
+    //         echo "*";
+    //     }
+
+    //     echo "<br>";
+    // }
+
+    // echo "<hr>";
+
+
+    // for ($i = 1; $i <= 5; $i++) {
+    //     for ($j = 1; $j <= $i; $j++) {
+    //         echo "* &nbsp";
+    //     }
+    //     echo "<br>";
+    // }
+
+    // echo "<hr>";
+
+    // for ($a = 1; $a <= 5; $a++) {
+    //     for ($j = 6; $j > $a; $j--) {
+    //         echo "&nbsp &nbsp";
+    //     }
+    //     for ($b = 1; $b <= $a; $b++) {
+    //         echo " *";
+    //     }
+
+    //     echo "<br>";
+    // }
+
+    for ($h = 0; $h <= 5; $h++) {
+
+        for ($k = 1; $k > $h; $k--) {
+            echo " &nbsp ";
         }
-        echo "<br>";
-    }
-
-    echo "<hr>";
-
-    for ($i = 5; $i >= 1; $i--) {
-        for ($j = 1; $j <= $i; $j++) {
-            echo "* &nbsp";
+        for ($m = 1; $m <= $h; $m++) {
+            echo "*";
         }
-        echo "<br>";
-    }
-
-    echo "<hr>";
-
-    for ($j = 1; $j <= 10; $j = $j + 2) {
-        for ($k = 10; $k > $j; $k--) {
-            echo "&nbsp";
+        for ($k = 7; $k > $h; $k--) {
+            echo " &nbsp &nbsp";
         }
-        for ($l = 1; $l <= $j; $l++) {
+        for ($m = 1; $m <= $h; $m++) {
             echo "*";
         }
 
         echo "<br>";
     }
-
-    echo "<hr>";
-
-
-    for ($i = 1; $i <= 5; $i++) {
-        for ($j = 1; $j <= $i; $j++) {
-            echo "* &nbsp";
-        }
-        echo "<br>";
-    }
-
-    echo "<hr>";
-
-    for ($a = 1; $a <= 5; $a++) {
-        for ($j = 6; $j > $a; $j--) {
-            echo "&nbsp &nbsp";
-        }
-        for ($b = 1; $b <= $a; $b++) {
-            echo " *";
-        }
-
-        echo "<br>";
-    }
-
 
 
 
