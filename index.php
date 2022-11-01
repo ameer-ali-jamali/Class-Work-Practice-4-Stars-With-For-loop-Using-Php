@@ -109,7 +109,19 @@
         echo "<br>";
     }
 
+    for ($a = 0; $a <= 100; $a++) {
+        echo $a . "<br>";
+    }
 
+    echo "<hr>";
+
+    for ($a = 0; $a < 100; $a = $a + 10) {
+
+        for ($b = $a; $b < $a + 10; $b++) {
+            echo $b . " ";
+        }
+        echo "<br>";
+    }
 
 
     ?>
